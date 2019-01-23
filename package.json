@@ -1,0 +1,16 @@
+{
+  "name": "@desco/fist-to-last",
+  "version": "1.0.0",
+  "description": "Move N first elements from beginning to end (or the inverse)",
+  "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/descodifica/first-to-last"
+  },
+  "private": false,
+  "license": "ISC",
+  "dependencies": {
+    "is-array": "^1.0.1",
+    "remove-array-items": "^2.0.0"
+  }
+}
