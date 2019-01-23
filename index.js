@@ -1,6 +1,6 @@
 const isArray = require('is-array')
 
-const firstToLast = (_list, _n, _reverse = false) => {
+const firstToLast = (_list, _n = 1, _reverse = false) => {
     const isObject = !isArray(_list)
     const list = !isObject ? [ ..._list, ] : Object.keys(_list)
 
