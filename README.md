@@ -30,7 +30,6 @@
 
 ## 📋 Tabela de conteúdos
 
-* [🛠️ Tecnologias](#Tecnologias)
 * [⚙️ Instalação](#Instalação)
 * [📦 Importação](#Importação)
 * [📚 Como Usar](#Como-Usar)
