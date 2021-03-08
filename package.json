@@ -1,11 +1,11 @@
 {
   "name": "@desco/first-to-last",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Move N first elements from beginning to end (or the inverse)",
   "author": "Rafael A. R. Dias <contato@diasrafael.com.br>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/descodifica/first-to-last"
+    "url": "git+https://github.com/desco-npm/first-to-last"
   },
   "private": false,
   "license": "ISC",
