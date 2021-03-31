@@ -1,6 +1,6 @@
 <div align="right">
   <a href="README.md">
-    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=🇧🇷 Ler em Português do Brasil&color=green&style=for-the-badge" />
+    <img alt="Ler em Portugês do Brasil" src="https://img.shields.io/static/v1?label=&message=Ler+em+Portugu%C3%AAs+do+Brasil&color=green&style=for-the-badge" />
   </a>
 </div>
 
@@ -30,9 +30,9 @@
 
 ## 📋 Table of Contents
 
-* [⚙️ Installation](#Installation)
-* [📦 Import](#Import)
-* [📚 How to use](#How-to-use)
+- [⚙️ Installation](#Installation)
+- [📦 Import](#Import)
+- [📚 How to use](#How-to-use)
 
 ---
 
@@ -55,13 +55,13 @@ npm install --save @desco/first-to-last
 ### Node
 
 ```js
-const firstToLast = require('@desco/first-to-last')
+const firstToLast = require("@desco/first-to-last");
 ```
 
 ### Browse
 
 ```js
-import firstToLast from '@desco/first-to-last'
+import firstToLast from "@desco/first-to-last";
 ```
 
 ---
@@ -71,23 +71,23 @@ import firstToLast from '@desco/first-to-last'
 ## 📚 How to use
 
 ```js
-const list = [ 1, 2, 3, 4, 5, ]
-const obj = { a: 1, b: 2, c: 3, d: 4, e: 5, }
+const list = [1, 2, 3, 4, 5];
+const obj = { a: 1, b: 2, c: 3, d: 4, e: 5 };
 
-console.log(firstToLast(list, 2)) // [ 3, 4, 5, 1, 2, ]
-console.log(firstToLast(obj, 4)) // { e: 5, a: 1, b: 2, c: 3, d: 4, }
+console.log(firstToLast(list, 2)); // [ 3, 4, 5, 1, 2, ]
+console.log(firstToLast(obj, 4)); // { e: 5, a: 1, b: 2, c: 3, d: 4, }
 
-console.log(firstToLast(list, 2, true)) // [ 4, 5, 1, 2, 3 ]
-console.log(firstToLast(obj, 4, true)) // { b: 2, c: 3, d: 4, e: 5, a: 1 }
+console.log(firstToLast(list, 2, true)); // [ 4, 5, 1, 2, 3 ]
+console.log(firstToLast(obj, 4, true)); // { b: 2, c: 3, d: 4, e: 5, a: 1 }
 ```
 
 ### Parameters
 
-| Nome | Tipo | Padrão | Descrição |
-|---|---|---|---
-| list | Array/Object | - | List to be sorted |
-| count | Number | 1 | Number of items to be relocated |
-| reverse | Boolean | `false` | If `true`, you will be redirected from the end to the beginning |
+| Nome    | Tipo         | Padrão  | Descrição                                                       |
+| ------- | ------------ | ------- | --------------------------------------------------------------- |
+| list    | Array/Object | -       | List to be sorted                                               |
+| count   | Number       | 1       | Number of items to be relocated                                 |
+| reverse | Boolean      | `false` | If `true`, you will be redirected from the end to the beginning |
 
 ---
 
@@ -110,10 +110,10 @@ console.log(firstToLast(obj, 4, true)) // { b: 2, c: 3, d: 4, e: 5, a: 1 }
         <img alt="Facebook @eudiasrafael" src="https://img.shields.io/static/v1?label=Facebook&message=@eudiasrafael&color=blue&logo=facebook&style=for-the-badge">
       </a>
       <a href="https://github.com/descodifica" target="_blank">
-        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub Overview @descodifica" src="https://img.shields.io/static/v1?label=GitHub+Overview&message=@descodifica&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://github.com/desco-npm" target="_blank">
-        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
+        <img alt="GitHub NPM @desco-npm" src="https://img.shields.io/static/v1?label=GitHub+NPM&message=@desco-npm&color=black&logo=github&style=for-the-badge">
       </a>
       <a href="https://www.npmjs.com/org/desco" target="_blank">
         <img alt="NPM @desco" src="https://img.shields.io/static/v1?label=NPM&message=@desco&color=red&logo=npm&style=for-the-badge">
